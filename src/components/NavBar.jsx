@@ -1,7 +1,7 @@
 import React from 'react'
 
-function NavBar() {
-    return (
+function NavBar(){
+    return(
         <div>
             <ul>
                 <li>Home</li>
@@ -9,7 +9,6 @@ function NavBar() {
                 <li>Cart</li>
             </ul>
         </div>
-
     )
 }
 
