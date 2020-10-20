@@ -1,0 +1,14 @@
+nav {
+  margin-top: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin: 6px;
+  }
+  
