@@ -1,14 +1,16 @@
 import React from 'react'
 import '../navBar.css';
+import CartIcon from './CartIcon'
 
-function NavBar(){
-    return(
+function NavBar(props) {
+    return (
         <nav>
-            <h1>Find</h1>
+            <h1 className='logo'>Find!</h1>
             <ul>
-                <li>Home</li>
-                <li>Login</li>
-                <li>Cart</li>
+                <li><a href="/">{props.name}</a></li>
+                <li><a href="/">Login</a> </li>
+                <CartIcon/>
+                {/* <li><a href="/">Cart</a></li> */}
             </ul>
         </nav>
     )

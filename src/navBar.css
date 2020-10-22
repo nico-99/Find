@@ -11,4 +11,13 @@ nav {
   nav ul li {
     margin: 6px;
   }
+
+  nav ul li a{
+    text-decoration: none;
+  }
+
+  .logo {
+    color: rgb(78, 78, 255);
+    font-size: 35px;
+  }
   
