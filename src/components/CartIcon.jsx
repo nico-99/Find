@@ -1,9 +1,14 @@
 import React from 'react'
+import { FaShoppingCart } from 'react-icons/fa';
 
 function CartIcon() {
     return (
         <div>
-            <button>Cart</button>
+            <ul>
+                <li>
+                    <a href="/" className='cartIcon'>Cart <FaShoppingCart/></a>
+                </li>
+            </ul>
         </div>
     )
 }
