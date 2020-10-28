@@ -18,7 +18,7 @@ function CartButton() {
             <button onClick={click}>Click!!</button>
             <ul>
                 <li>Veces que clickeaste: {number}</li>
-                <li>ultims vez: {time}</li>
+                <li>ultima vez: {time}</li>
             </ul>
         </div>
     )
