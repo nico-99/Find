@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../home.css'
+import ItemCount from './ItemCount'
 
 function Home() {
     const [greeting, setGreeting] = useState("Esto puede cambiar")
@@ -12,6 +13,7 @@ function Home() {
         <div className='box'>
             <h2>{greeting}</h2>
             <button onClick={changeGreeting}>Cambiar</button>
+            <ItemCount/>
         </div>
     )
 }

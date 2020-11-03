@@ -3,7 +3,6 @@ import './App.css';
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import CartButton from './components/CartButton'
-import ItemCount from './components/ItemCount'
 
 function App() {
 
@@ -13,7 +12,6 @@ function App() {
       <NavBar name={name} />
       <Home />
       <CartButton />
-      <ItemCount />
     </div>
   );
 }
