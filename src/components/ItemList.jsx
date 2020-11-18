@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Data from './Data'
 import Item from './Item'
+// import {Link} from 'react-router-dom'
 
 let promise = () => {
     return new Promise((res, rej) => {
@@ -32,7 +33,5 @@ const ItemList = () => {
         </div>
     )
 }
-
-
 
 export default ItemList;
