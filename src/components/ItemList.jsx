@@ -16,17 +16,16 @@ let promise = () => {
 const ItemList = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        let ejecutarPromesa = promise(Data)
-        ejecutarPromesa.then(result => setProducts(result))
+        promise(Data).then((result) => {
+            setProducts(result)
+        })
     }, []
     )
 
     return (
         <div>
             {products.map((product) => (
-                <Item id={product.id}
-                    name={product.name}
-                    stock={product.stock}
+                <Item key={product.id} detail={product}
                 />
             ))}
 
