@@ -15,12 +15,10 @@ function App() {
       <Router>
       <NavBar name={name}/>
       <Switch>
-        <Route exact path='/'>
-          <Route exact path='/itemdetail/:productId'
-          component={ItemDetailContainer}
-          />
-          <Home/>
-        </Route>
+        <Route exact path='/' component={Home}/>
+          <Route exact path='/itemdetail/:productId' component={ItemDetailContainer}/>
+          {/* <Home/> */}
+        {/* </Route> */}
       </Switch>
       </Router>
     </div>

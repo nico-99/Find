@@ -23,7 +23,7 @@ const ItemDetailContainer = () => {
             setDetail(product);
             setLoading(false);
         });
-    },[]);
+    },[productId]);
 
     return (
         <div>
