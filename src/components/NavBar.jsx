@@ -11,6 +11,7 @@ function NavBar(props) {
                 <li><a href="/">{props.name} <BiHome/></a></li>
                 <li><a href="/">Sign in <BiLogIn/></a> </li>
                 <CartIcon/>
+                <li>(Number)</li>
             </ul>
         </nav>
     )
