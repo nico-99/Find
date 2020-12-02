@@ -1,14 +1,14 @@
 import React from 'react'
+import AddButton from './AddButton';
 import Item from './Item'
-import Count from './Count'
+import ItemCount from './ItemCount';
 
 
 const ItemDetail = ({detail})=>{
     return (
     <div>
         <Item detail={detail}/>
-        <Count/>
-        <button>Ver Mas</button>
+        <ItemCount/>
     </div>
     )
 }

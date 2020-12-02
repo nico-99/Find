@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import ItemDetail from './ItemDetail'
 import Data from './Data'
 
+
 let promise = (productId) => {
     return new Promise((res, rej) => {
         setTimeout(() => {

@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Count from './Count'
+import AddButton from './AddButton'
 
 function ItemCount() {
 
@@ -15,6 +16,7 @@ function ItemCount() {
     return (
         <div>
             <Count number={number}  counter={counter}/>
+            <AddButton number={number}/>
         </div>
     )
 }
