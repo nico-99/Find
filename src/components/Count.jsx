@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Count.css'
+import '../assets/Count.css'
 
 function Count({number, counter}) {
     return (

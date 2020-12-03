@@ -1,5 +1,5 @@
 import React from 'react'
-import '../navBar.css';
+import '../assets/navBar.css';
 import { BiLogIn, BiHome } from 'react-icons/bi';
 import CartIcon from './CartIcon'
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../home.css'
+import '../assets/home.css'
 // import ItemCount from './ItemCount'
 // import CartButton from './CartButton' ejemplo
 import ItemList from './ItemList'
